@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #aeaeae;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    max-width: 460px;
+    background: linear-gradient(127deg, #00FEBA -1.49%, #5B548A 99.13%);
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.search-bar{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.search-bar input{
+    border-radius: 50px;
+    background: #D9D9D9; 
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+.search-bar img{
+    width: 30px;
+}
+.weather p{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.weather h1{
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.weather img{
+    width: 200px;
+}
+.left-details{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.left-logo {
+    width: 30px !important;
+    height: 28px;
+    margin-left: 80px;
+}
+.right-logo {
+    width: 35px !important;
+    height: 35px;
+}
+.okey p{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.okey h3{
+    color: white;
+    font-size: 20px;
+}
+.right-details{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    gap: 10px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.weather{
+    display: none;
+}
+.error{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    display: none;
+}
+
+@media screen and (max-width: 470px){
+    .button{
+        gap: 30px;
+    }
+    .right-details{
+        margin-right: 30px;
+    }
+    .left-logo{
+        margin-left: 30px;
+    }
+}
