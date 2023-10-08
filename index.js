@@ -22,7 +22,7 @@ async function checkWeather(city){
         document.querySelector('.wind-no').innerHTML = data.wind.speed + ' km/h';
     
         if(data.weather[0].main == 'Clouds'){
-            weatherImage.src ="m/images/clouds.png"
+            weatherImage.src ="./images/clouds.png"
         } 
         else if(data.weather[0].main == 'Clear'){
             weatherImage.src ="./images/clear.png"
